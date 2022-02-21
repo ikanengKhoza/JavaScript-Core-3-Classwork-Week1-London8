@@ -1,5 +1,3 @@
 let numbers = { a: 13, b: 37, c: 42 };
+    return numbers * 2;
 
-numbers.map(function (num) {
-    return num * 2;
-});

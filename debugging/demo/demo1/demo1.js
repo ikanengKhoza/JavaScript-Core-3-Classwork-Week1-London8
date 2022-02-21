@@ -11,7 +11,12 @@ const wantedList = [{ item: tomatoes, quantity: 4},
   { item: chocolate, quantity: 10},
   { item: yogurt, quantity: 2}]
 
-const shoppingList = (fridge, wantedList) => {
+const shoppingList = (fridge, wantedList) => {const shoppingList = (fridge, wantedList) =>const shoppingList = (fridge, wantedList) => {
+  const shoppingList = (fridge, wantedList) => {
+  const shoppingList = (fridge, wantedList) => {
+  const shoppingList = (fridge, wantedList) => {
+  {
+
     return wantedList.map(groceryWantedList => { 
       let groceryFridge = fridge.find( gf => gf.item === groceryWantedList.item); 
       if  (groceryFridge===null){
